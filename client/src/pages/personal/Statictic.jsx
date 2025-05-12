@@ -145,6 +145,7 @@ export default function Statistic() {
       ></HistoryList>
       <button onClick={HandleClick1}>1</button>
       <button onClick={HandleClick2}>2</button>
+      <button onClick={HandleClick2}>2</button>
     </>
   );
 }
