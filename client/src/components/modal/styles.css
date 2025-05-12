@@ -1,0 +1,29 @@
+.offBtn {
+  background-color: #1677ff;
+  height: 20px;
+  width: 30px;
+  margin: 0;
+  padding: 3px;
+  position: relative;
+  top: 5px;
+  left: 364px;
+  z-index: 101;
+  border: none;
+  border-radius: 6px;
+}
+
+/* .offBtn:hover {
+  background-color: #97c2ff;
+} */
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(3px);
+  height: 100vh;
+  width: 100%;
+}
+/* 
+.modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+} */
