@@ -20,6 +20,7 @@ export default function PersonalNavBar() {
     { id: 0, text: "Assets", path: "/personal/assets" },
     { id: 1, text: "History", path: "/personal/history" },
     { id: 2, text: "Statistic", path: "/personal/statistic" },
+    { id: 3, text: "Redux", path: "/personal/redux" },
   ];
 
   // console.log(buttons.filter((i) => i.path === location.pathname)[0].id);
